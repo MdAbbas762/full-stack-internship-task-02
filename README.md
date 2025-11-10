@@ -1,6 +1,6 @@
 # full-stack-internship-task-02  
 
-This project is a basic full-stack web application created for **Task 2** of the Full Stack Development internship.  
+This project is a basic full-stack web application created for **Task 2** of the Full Stack Development internship, at **CoreTech Innovations**.  
 It includes a frontend form, a Node.js + Express backend, and a MongoDB database for storing form submissions.  
 
 ---  
