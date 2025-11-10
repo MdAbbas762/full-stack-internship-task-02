@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    height: 100vh;
+}
+
+header {
+    height: 7%;
+    background-color: rgb(50, 66, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
+
+ul li {
+    font-size: 1.05rem;
+    cursor: pointer;
+}
+
+section {
+    height: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section form {
+    width: 30%;
+    padding: 2em;
+    background-color: rgb(139, 157, 187);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border: 1px solid black;
+    border-top: 0;
+    border-radius: 10px;
+}
+
+h2 {
+    width: 30%;
+    background-color: rgb(61, 80, 114);
+    display: flex;
+    flex-direction: column;
+    padding: 0.6em;
+    text-align: center;
+    border: 1px solid black;
+    border-bottom: 0;
+    border-radius: 10px;
+}
+
+form input,
+textarea, 
+button {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+form input,
+textarea {
+    transition: all ease 0.5s;
+}
+
+form input:focus {
+    border: 1px solid black;
+    background-color: #f3f3f3bb;
+}
+
+form textarea:focus {
+    border: 1px solid black;
+    background-color: #f3f3f3bb;
+}
+
+form input {
+    padding: 1.1em;
+    font-size: 0.9rem;
+}
+
+form textarea {
+    padding: 0.7em 1em;
+    font-size: 0.99rem;
+}
+
+form button {
+    padding: 0.9em;
+    font-size: 1.38rem;
+    font-weight: 550;
+    background-color: rgb(184, 231, 204);
+    margin-top: 2em;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+form button:hover {
+    background-color: rgb(137, 190, 160);
+    color: #ffffff;
+}
